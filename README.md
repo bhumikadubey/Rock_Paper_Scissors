@@ -3,4 +3,4 @@ Welcome to our Project! This is one of our favourite Rock_Paper_Scissor-game now
 ##Setup Instructions
 Pre-requisite: Know the Basics of Python Programming. Install random library Run rock_paper_scissor.py on Python Compiler.
 ###Preview
-image.png
+![image](https://user-images.githubusercontent.com/113226166/232844567-30c4e9eb-ef8c-47ca-978f-f860316db88e.png)

@@ -15,7 +15,7 @@ def gameWin(comp, you):
     # Check for all posiblities when computer choose p
     elif comp == 'p':
         if you == 's':
-            return False
+            return True
         elif you == 'r':
             return True
     
@@ -35,7 +35,7 @@ elif randNo == 2:
 elif randNo == 3:
     comp = 's'
 
-you = input("Your Turn: Rock(r) Paper(p) or Scissor(s)?")
+you = input("Your Turn: Rock(r) Paper(p) or Scissor(s)? ")
 a = gameWin(comp, you)
 
 print(f"Computer choose {comp}")

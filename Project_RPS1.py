@@ -36,6 +36,9 @@ while True:
         comp = 's'
 
     you = input("Your Turn: Rock(r) Paper(p) or Scissor(s)? ")
+    if you not in ['r','p','s']:
+        print('Invalid Input')
+        continue
     a = gameWin(comp, you)
 
     print(f"Computer choose {comp}")
